@@ -37,7 +37,6 @@ public class Player_Move : MonoBehaviour
         Vector2 direction = mouseWorldPos - transform.position;
         transform.up = direction;
 
-        transform.localScale = new Vector3(1 - (0.2f * (player_rb.linearVelocity.magnitude / player_move_speed)),1f,1f);
         //controls.Normal_Gameplay.Throw.performed += ctx.ReadValue<Vector2>() => Throw(); 
         //controls.Normal_Gameplay.canceled += ctx => throw_vector = Vector.zero;
     }

@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   contact_damage: 5
-  deathParticle: {fileID: 1059154500042718346, guid: 5f76acb56e6846e40bb36057e265ea16, type: 3}
+  deathParticle: {fileID: 1059154500042718346, guid: 1a71c411b3a2b3740919dcebbc585b6a, type: 3}
   destroy_self_on_contact: 1
 --- !u!50 &315622681504129681
 Rigidbody2D:
