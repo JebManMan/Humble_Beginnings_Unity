@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8001071300634342533
+--- !u!114 &-8612061594374716370
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Material
-  m_Shader: {fileID: -6465566751694194690, guid: f596d3199bed177428b54bd78a542085, type: 3}
+  m_Name: Enemy_Evil_Material
+  m_Shader: {fileID: -6465566751694194690, guid: e118b5cddefa7db47af26828f61460d5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: dd87fb1cb4db57c49ae85d2e6b948949, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -49,10 +49,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal_Map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -71,15 +67,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Glow_Cycle_Factor: 2
-    - _Outline_Thickness: 0.02
-    - _Scroll_Speed: 0.04
+    - _Scrol_Speed: 0.8
     - _ZWrite: 0
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_Colour: {r: 0.16226411, g: 0.16226411, b: 0.16226411, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColour: {r: 0, g: 0.3132075, b: 0.22940655, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
